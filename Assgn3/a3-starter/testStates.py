@@ -1,0 +1,113 @@
+
+from backgState import *
+
+WHITE_TO_BEAR_OFF = bgstate()
+WHITE_TO_BEAR_OFF.pointLists =[
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[R,R,R,R,R],
+[],
+[R,R,R],
+[],
+[],
+[],
+[R,R,R,R,R],
+[],
+[],
+[],
+[],
+[W,W,W,W,W],
+[W,W],
+[W,W,W],
+[W,W,W,W,W],
+[],
+[R,R] ]
+
+RED_TO_BEAR_OFF = bgstate()
+RED_TO_BEAR_OFF.pointLists =[
+[R,R,R,R,R],
+[],
+[R,R,R],
+[R,R],
+[R,R,R,R,R],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[W,W,W,W,W],
+[W,W],
+[W,W,W],
+[W,W,W,W,W],
+[] ]
+
+WHITE_ABOUT_TO_WIN= bgstate()
+WHITE_ABOUT_TO_WIN.pointLists =[
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[R,R,R,R,R],
+[],
+[R,R,R],
+[],
+[],
+[],
+[R,R,R,R,R],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[R,R] ]
+WHITE_ABOUT_TO_WIN.white_off=[W,W,W,W,W,W,W,W,W,W,W,W,W,W]
+
+WHITE_HIT_FROM_BAR= bgstate()
+WHITE_HIT_FROM_BAR.pointLists =[
+[W],
+[R],
+[R],
+[R],
+[W],
+[],
+[],
+[R,R,R,R,R],
+[],
+[R,R,R],
+[],
+[],
+[],
+[R],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[R,R],
+[R]]
+WHITE_HIT_FROM_BAR.bar=[W,W,W]
+WHITE_HIT_FROM_BAR.white_off=[W,W,W,W,W,W,W,W,W,W,W]
